@@ -5,6 +5,7 @@ metadata:
   description: Petclinic App Website
   annotations:
     'backstage.io/kubernetes-label-selector': 'app.kubernetes.io/part-of=petclinic-server'
+    goharbor.io/repository-slug: demo
 spec:
   type: service
   lifecycle: experimental
